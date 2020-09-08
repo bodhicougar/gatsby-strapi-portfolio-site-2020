@@ -41,3 +41,4 @@ const Component = () => {
       },
     },
 ```
+# strapi-gatsby-portfolio
