@@ -8,8 +8,8 @@ module.exports = {
   siteMetadata: {
     title: "WebDev Portfolio",
     description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
+    author: "@bodhicougar",
+    twitterUsername: "@BBMediaDesign",
     image: "/twitter-img.png",
     siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
   },
@@ -30,8 +30,6 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
-        // contentTypes: [`jobs`, `projects`, `blogs`, ],
-        //singleTypes:[`about` ]
         contentTypes: [`jobs`, `projects`, `blogs`],
         singleTypes: [`about`],
       },
